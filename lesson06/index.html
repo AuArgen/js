@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle and ClassList</title>
+    <style>
+        .block {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: 900;
+            display: none;
+        }
+        .block.active{
+            display: flex;
+        }
+        .block.whatsapp {
+            background: greenyellow;
+        }
+        .block.facebook {
+            background: rgb(44, 101, 233);
+        }
+        .block.instagram {
+            background: linear-gradient(yellow 5%,rgb(246, 10, 175) 90%, red 5%);
+        }
+        .block.twiter {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn-whatsapp">Whatsapp</button>
+    <button class="btn-facebook">Facebook</button>
+    <button class="btn-instagram">Instagram</button>
+    <button class="btn-twiter">Twiter</button>
+    <div class="block whatsapp">
+        Whatsapp
+    </div>
+    <div class="block facebook">
+        Facebook
+    </div>
+    <div class="block instagram">
+        Instagram
+    </div>
+    <div class="block twiter">
+        Twiter
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
