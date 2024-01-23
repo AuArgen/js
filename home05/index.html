@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        *{
+            font-size: 2rem;
+        }
+        label {
+            display: block;
+            border-bottom: 1px solid gray;
+            cursor: pointer;
+        }
+        label input {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <p>2+4 = ?</p>
+    <label id="ltest_1_1" for="test_1_1">
+        A) <input type="radio" name="test_1" id="test_1_1"> 4
+    </label>
+    <label id="ltest_1_2" for="test_1_2">
+        B) <input type="radio" name="test_1" id="test_1_2"> 6
+    </label>
+    <label id="ltest_1_3" for="test_1_3">
+        C) <input type="radio" name="test_1" id="test_1_3"> 5
+    </label>
+    <label id="ltest_1_4" for="test_1_4">
+        D) <input type="radio" name="test_1" id="test_1_4"> 3
+    </label>
+
+    <p>2-4 = ?</p>
+    <label id="ltest_2_1" for="test_2_1">
+        A) <input type="radio" name="test_2" id="test_2_1"> 0
+    </label>
+    <label id="ltest_2_2" for="test_2_2">
+        B) <input type="radio" name="test_2" id="test_2_2"> 1
+    </label>
+    <label id="ltest_2_3" for="test_2_3">
+        C) <input type="radio" name="test_2" id="test_2_3"> -2
+    </label>
+    <label id="ltest_2_4" for="test_2_4">
+        D) <input type="radio" name="test_2" id="test_2_4"> -3
+    </label>
+
+    <p>2+7 = ?</p>
+    <label id="ltest_3_1" for="test_3_1">
+        A) <input type="radio" name="test_3" id="test_3_1"> 9
+    </label>
+    <label id="ltest_3_2" for="test_3_2">
+        B) <input type="radio" name="test_3" id="test_3_2"> 8
+    </label>
+    <label id="ltest_3_3" for="test_3_3">
+        C) <input type="radio" name="test_3" id="test_3_3"> -2
+    </label>
+    <label id="ltest_3_4" for="test_3_4">
+        D) <input type="radio" name="test_3" id="test_3_4"> -3
+    </label>
+
+    <button>Answer</button>
+    <h1 class="res">result:</h1>
+    <script src="./main.js"></script>
+</body>
+</html>
