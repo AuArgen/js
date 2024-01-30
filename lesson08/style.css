@@ -1,0 +1,34 @@
+.container {
+    width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: #F6F8FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container .block {
+    width: 320px;
+    min-height: 150px;
+    font-size: 3rem;
+    background: gray;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.container .block.active {
+    background: red;
+}
+
+.container .block .min-block {
+    background: white;
+    margin: 5px;
+    width: 45%;
+}
+
+.container .block .min-block.active {
+    background: yellow;
+}
